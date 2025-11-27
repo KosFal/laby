@@ -10,3 +10,5 @@ function sum(...args) {
   
   return result;
 }
+
+console.log(sum(1,2,3));
