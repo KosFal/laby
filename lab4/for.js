@@ -1,9 +1,7 @@
-const sum = (...args) => {
-  let value = 0;
+function sum(...args) {
+  let result = 0;
   for (let i = 0; i < args.length; i++) {
-    value += args[i];
+    result += args[i];
   }
-  return value;
-};
-
-module.exports = { sum };
+  return result;
+}
